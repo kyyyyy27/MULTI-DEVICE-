@@ -309,7 +309,7 @@ if (tebaklagu.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebaklagu[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await sock.sendButtonText(m.chat, [{ buttonid: '##tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `🎮 Tebak Lagu 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© OSCAR-MD", m)
+await sock.sendButtonText(m.chat, [{ buttonid: '##tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `🎮 Tebak Lagu 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© YAKUZAA-MD", m)
 delete tebaklagu[m.sender.split('@')[0]]
 } else ads('*Jawaban Salah!*')
 }
@@ -318,7 +318,7 @@ if (tebakgambar.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebakgambar[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await sock.sendButtonText(m.chat, [{ buttonid: '##tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `🎮 Tebak Gambar 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© OSCAR-MD", m)
+await sock.sendButtonText(m.chat, [{ buttonid: '##tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `🎮 Tebak Gambar 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© YAKUZAA-MD", m)
 delete tebakgambar[m.sender.split('@')[0]]
 } else ads('*Jawaban Salah!*')
 }
@@ -327,7 +327,7 @@ if (tebakkata.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebakkata[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await sock.sendButtonText(m.chat, [{ buttonid: '##tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `🎮 Tebak Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© OSCAR-MD", m)
+await sock.sendButtonText(m.chat, [{ buttonid: '##tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `🎮 Tebak Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© YAKUZAA-MD", m)
 delete tebakkata[m.sender.split('@')[0]]
 } else ads('*Jawaban Salah!*')
 }
@@ -337,7 +337,7 @@ kuis = true
 jawaban = caklontong[m.sender.split('@')[0]]
 deskripsi = caklontong_desk[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await sock.sendButtonText(m.chat, [{ buttonid: '##tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `🎮 Cak Lontong 🎮\n\nJawaban Benar 🎉\n*${deskripsi}*\n\nIngin bermain lagi? tekan button dibawah`, "© OSCAR-MD", m)
+await sock.sendButtonText(m.chat, [{ buttonid: '##tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `🎮 Cak Lontong 🎮\n\nJawaban Benar 🎉\n*${deskripsi}*\n\nIngin bermain lagi? tekan button dibawah`, "© YAKUZAA-MD", m)
 delete caklontong[m.sender.split('@')[0]]
 delete caklontong_desk[m.sender.split('@')[0]]
 } else ads('*Jawaban Salah!*')
@@ -347,7 +347,7 @@ if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebakkalimat[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await sock.sendButtonText(m.chat, [{ buttonid: '##tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `🎮 Tebak Kalimat 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© OSCAR-MD", m)
+await sock.sendButtonText(m.chat, [{ buttonid: '##tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `🎮 Tebak Kalimat 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© YAKUZAA-MD", m)
 delete tebakkalimat[m.sender.split('@')[0]]
 } else ads('*Jawaban Salah!*')
 }
@@ -356,7 +356,7 @@ if (tebaklirik.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebaklirik[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await sock.sendButtonText(m.chat, [{ buttonid: '##tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `🎮 Tebak Lirik 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© OSCAR-MD", m)
+await sock.sendButtonText(m.chat, [{ buttonid: '##tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `🎮 Tebak Lirik 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© YAKUZAA-MD", m)
 delete tebaklirik[m.sender.split('@')[0]]
 } else ads('*Jawaban Salah!*')
 }
@@ -365,7 +365,7 @@ if (tebaktebakan.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
 jawaban = tebaktebakan[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await sock.sendButtonText(m.chat, [{ buttonid: '##tebak tebakan', buttonText: { displayText: 'Tebak Tebakan' }, type: 1 }], `🎮 Tebak Tebakan 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© OSCAR-MD", m)
+await sock.sendButtonText(m.chat, [{ buttonid: '##tebak tebakan', buttonText: { displayText: 'Tebak Tebakan' }, type: 1 }], `🎮 Tebak Tebakan 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© YAKUZAA-MD", m)
 delete tebaktebakan[m.sender.split('@')[0]]
 } else ads('*Jawaban Salah!*')
 }
@@ -727,7 +727,7 @@ let res = sock.sendMessage(from, { text: teks, mentions: mems }, { quoted: m })
 return res
  }
 }
-let head = `*╭───╼[ _OSCAR-MD_ ]╾──➲*`
+let head = `*╭───╼[ _YAKUZAA-MD_ ]╾──➲*`
 let left = "*│*"
 let branch = "*├*"
 let bracketmenu = "*┞─╼「"
@@ -1031,7 +1031,7 @@ displayText: '📊Dashboard',
 id: '#dashboard'
 }
 }]
-sock.sendMessage(from, { caption: listmn, location: { jpegThumbnail: fs.readFileSync('./worker/media/image/loc.jpg') }, buttons: but, footer: '©OSCAR-MD'})
+sock.sendMessage(from, { caption: listmn, location: { jpegThumbnail: fs.readFileSync('./worker/media/image/loc.jpg') }, buttons: but, footer: '©YAKUZAA-MD'})
 }
 break
 break
@@ -1969,7 +1969,7 @@ templateMessage: {
 hydratedTemplate: {
 videoMessage: message.videoMessage,
 hydratedContentText: listmn,
-hydratedFooterText: "© OSCAR-MD",
+hydratedFooterText: "© YAKUZAA-MD",
 hydratedButtons: [{
 urlButton: {
 displayText: 'Group Whatsapp',
@@ -2311,7 +2311,7 @@ let buttonMessageVote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© OSCAR-MD",
+footer: "© YAKUZAA-MD",
 buttons: buttonsVote,
 headerType: 1
 }
@@ -2356,7 +2356,7 @@ let buttonMessageUpvote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "©OSCAR-MD",
+footer: "©YAKUZAA-MD",
 buttons: buttonsUpvote,
 headerType: 1,
 mentions: menvote
@@ -2402,7 +2402,7 @@ let buttonMessageDevote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© OSCAR-MD",
+footer: "© YAKUZAA-MD",
 buttons: buttonsDevote,
 headerType: 1,
 mentions: menvote
@@ -2809,7 +2809,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© OSCAR-MD",
+footer: "© YAKUZAA-MD",
 buttons: buttons,
 headerType: 4
 }
@@ -2834,7 +2834,7 @@ let buttonMessage = {
 image: {url:res[0].icon},
 jpegThumbnail: thum,
 caption: teks,
-footer: "© OSCAR-MD",
+footer: "© YAKUZAA-MD",
 buttons: buttons,
 headerType: 4
 }
@@ -2861,7 +2861,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© OSCAR-MD",
+footer: "© YAKUZAA-MD",
 buttons: buttons,
 headerType: 4
 }
@@ -2885,7 +2885,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© OSCAR-MD",
+footer: "© YAKUZAA-MD",
 buttons: buttons,
 headerType: 4
 }
@@ -3072,7 +3072,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: `*「 OSCAR~ MD」*\n\nChange Info, Select Open Or Close`,
-footer: "© OSCAR-MD",
+footer: "© YAKUZAA-MD",
 buttons: buttons,
 headerType: 4
 }
@@ -3099,7 +3099,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: `*「 OSCAR ~ MD」*\n\nChange Group Setting, Select Open Or Close`,
-footer: "© OSCAR-MD",
+footer: "© YAKUZAA-MD",
 buttons: buttons,
 headerType: 4
 }
@@ -3185,7 +3185,7 @@ id: '#sc'
 }
 }]
 let txt = `*「 Broadcast」*\n\n${text}`
-sock.send5ButImg(i, txt, "© OSCAR-MD", log0, btn, thum)
+sock.send5ButImg(i, txt, "© YAKUZAA-MD", log0, btn, thum)
 }
 ads(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
 }
@@ -3226,7 +3226,7 @@ id: '#sc'
 }
 }]
 let txt = `*「 Broadcast」*\n\n${text}`
-sock.send5ButImg(yoi, txt, "© OSCAR-MD ", log0, btn, thum)
+sock.send5ButImg(yoi, txt, "© YAKUZAA-MD ", log0, btn, thum)
 }
 ads('Sukses Broadcast')
 }
@@ -3242,12 +3242,12 @@ let buttonMessage = {
 image: thum,
 jpegThumbnail: log0,
 caption: teks,
-footer: "©OSCAR-MD",
+footer: "©YAKUZAA-MD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title:"OSCAR ~ MD  ( Donate )",
-body: "©OSCAR-MD", 
+body: "©YAKUZAA-MD", 
 thumbnail: fs.readFileSync("worker/media/image/Oscar.jpg"),
 mediaType:1,
 mediaUrl: 'https://telegra.ph/file/99b45f00f234cff8d0693.jpg',
@@ -3685,12 +3685,12 @@ caption: `*| GOOGLE IMAGE |*
 
 🤠 Query : ${text}
 🔗 Media Url : ${images}`,
-footer: "© OSCAR-MD",
+footer: "© YAKUZAA-MD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"OSCAR- By JAROT",
-body:"© OSCAR-MD",
+title:"YAKUZAA-MD",
+body:"© YAKUZAA-MD",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ",
@@ -3730,12 +3730,12 @@ let buttons = [
 let buttonMessage = {
 image: { url: imgnyee },
 caption:  '⭔ Title : ' + args.join(" ") + '\n⭔ Media Url : '+imgnyee,
-footer: "© OSCAR-MD",
+footer: "© YAKUZAA-MD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"OSCAR-MD - By JAROT",
-body:"© OSCAR-MD",
+title:"YAKUZAA-MD - By JAROT",
+body:"© YAKUZAA-MD",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ",
@@ -3775,7 +3775,7 @@ let buttonMessage = {
 image:log0,
 jpegThumbnail:thum,
 caption: textbv,
-footer: "© OSCAR-MD",
+footer: "© YAKUZAA-MD",
 buttons: buttons,
 headerType: 4
 }
@@ -3812,7 +3812,7 @@ let buttonMessage = {
 image:log0,
 jpegThumbnail:thum,
 caption: textbv,
-footer: "© OSCAR-MD",
+footer: "© YAKUZAA-MD",
 buttons: buttons,
 headerType: 4
 }
@@ -3840,8 +3840,8 @@ if (isBan) return ads(mess.ban)
 if (!args[0]) return ads("Linknya mana kak?")
 try {
 sock.sendMessage(from, {video:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
-title:"OSCAR-MD By JAROT",
-body:"© OSCAR-MD",
+title:"YAKUZAA-MD By Kyy",
+body:"© YAKUZAA-MD",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/TmX43Io_v8s",
@@ -3858,8 +3858,8 @@ if (isBan) return ads(mess.ban)
 if (!args[0]) return ads("Linknya mana kak?")
 try {
 sock.sendMessage(from, {image:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
-title:"OSCAR-MD - By JAROT",
-body:"© OSCAR-MD",
+title:"YAKUZAA-MD - By JAROT",
+body:"© YAKUZAA-MD",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ",
@@ -3891,11 +3891,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:lotwit.medias[1].url},
 caption: teks,
-footer: "© OSCAR-MD",
+footer: "© YAKUZAA-MD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"JAROT Official ~ Twitter Downloader",
+title:"YAKUZAA Official ~ Twitter Downloader",
 body:lotwit.title ? lotwit.title : "Twitter Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -3918,7 +3918,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: "© OSCAR-MD",
+footer: "© YAKUZAA-MD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -3952,7 +3952,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:resd.medias[0].url},
 caption: teks,
-footer: "©OSCAR-MD",
+footer: "©YAKUZAA-MD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -3979,7 +3979,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: "© OSCAR-MD",
+footer: "© YAKUZAA-MD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -4014,7 +4014,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:res.medias[1].url},
 caption: texttk,
-footer: "© OSCAR-MD",
+footer: "© YAKUZAA-MD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -4063,7 +4063,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:res.medias[0].url},
 caption: texttk,
-footer: "© OSCAR-MD",
+footer: "© YAKUZAA-MD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -4103,12 +4103,12 @@ caption: `*| YOUTUBE PLAY |*
 ⭔ Channel : ${anu.author.url}
 ⭔ Description : ${anu.description}
 ⭔ Url : ${anu.url}`,
-footer: "© OSCAR-MD",
+footer: "© YAKUZAA-MD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: anu.title,
-body: "© OSCAR-MD",
+body: "© YAKUZAA-MD",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: anu.url,
@@ -4138,12 +4138,12 @@ let buttons = [
 let buttonMessage = {
 image: {url:res.thumb},
 caption: textyt,
-footer: "© OSCAR-MD",
+footer: "© YAKUZAA-MD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: res.title,
-body: "© OSCAR-MD",
+body: "© YAKUZAA-MD",
 thumbnail: {url:res.thumb},
 mediaType:2,
 mediaUrl: args[0],
@@ -4161,8 +4161,8 @@ break
 case prefix+'ytvd': {
 if (isBan) return ads(mess.ban)
 sock.sendMessage(from, {video:{url:args[0]}, mimetype:"video/mp4", caption:"Success", contextInfo:{externalAdReply:{
-title:"OSCAR-MD - By JAROT",
-body:"© OSCARBOT~ JAROT",
+title:"YAKUZAA-MD - By Kyy",
+body:"© YakuzaaBot~ Kyy",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ",
@@ -4174,8 +4174,8 @@ break
 case prefix+'ytad': {
 if (isBan) return ads(mess.ban)
 sock.sendMessage(from, {audio:{url:args[0]}, mimetype:"audio/mp4", ptt:true, contextInfo:{externalAdReply:{
-title:"Oscar-Bot - By Jarot",
-body:"© OSCARBOT ~ JAROT",
+title:"Yakuzaa - By Kyy",
+body:"© Yakuzaa ~ Kyy",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ",
